@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NS Verhalen</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700&display=swap" rel="stylesheet"> </head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li id="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+                </li>
+                <li>
+                    <form>
+                        <input type="text" name="zoeken" placeholder="Zoeken"> </form>
+                </li>
+                <li>
+                    <a href="favorieten.html"><img src="images/book-closed.svg"> Favoriet</a>
+                    <div id="little_number">1</div>
+                </li>
+                <li>
+                    <a href="profiel.html"><img src="images/man.svg" alt="profiel"> Profiel</a>
+                </li>
+            </ul>
+        </nav>
+        <h1>De verhalen van de NS<br> laat je ontspannen</h1> </header>
+    <main>
+        <section id="verhaalkeuze">
+            <h2>Ga op zoek naar jouw verhaal</h2>
+            <p>Sorteren:</p>
+            <select>
+                <option value="recent">Meest recent </option>
+                <option value="populair">Populair</option>
+            </select>
+            <section class="aantalminuten">
+                <p>Filter op tijdsduur:</p>
+                <input type="range" min="1" max="15" value="7" class="slider" id="myRange">
+                <p>Aantal minuten: <b><span id="demo"></span></b></p>
+            </section>
+        </section>
+        <section class="artikelen">
+            <h2>De verhalen van de NS</h2>
+            <h3>Meest recent</h3>
+            <article> <img src="images/cruiff.jpg" alt="johan cruiff">
+                <h4>Johan Cruiff</h4>
+                <p>Om te beginnen is er maar één bal en die moet je dus hebben, maar waar het dus in wezen om gaat, is: wat doe je met die bal... </p>
+                <button id="heart_in_first_article">&#9825;</button>
+                <h5>07:14</h5> <a href="verhaal.html">Lees verder</a> </article>
+            <article> <img src="images/sport.jpg" alt="sportcommentaar">
+                <h4>Sportcommentaar</h4>
+                <p>En daar stopt lijn 21 op exact de juiste tijd op precies de juiste plek op het Stationsplein. De deuren gaat open, de spanning...</p>
+                <button id="heart_in_first_article">&#9825;</button>
+                <h5>07:14</h5><a href="verhaal.html">Lees verder</a> </article>
+            <article> <img src="images/cat.jpg" alt="ongeluk">
+                <h4>Ongeluk</h4>
+                <p>Voor het Centraal Station stap ik lijn 13 uit midden in een plas die zo diep is dat mijn hele schoen erin verdwijnt. Mijn leven...</p>
+                <button id="heart_in_first_article">&#9825;</button>
+                <h5>07:14</h5> <a href="verhaal.html">Lees verder</a> </article>
+            <article> <img src="images/zombie.jpg" alt="zombies">
+                <h4>Zombies</h4>
+                <p>Duizenden hongerige ondoden lopen zielloos over het stationsplein. Op zoek naar voedsel, naar half vergane vleesmensen en...</p>
+                <button id="heart_in_first_article">&#9825;</button>
+                <h5>06:13</h5><a href="verhaal.html">Lees verder</a> </article>
+            <article> <img src="images/boom.jpg" alt="droom">
+                <h4>Droom</h4>
+                <p>Slierten mist zwerven rond mijn benen. Net zat ik nog in Bus 21. Het was warm, zweet parelde langs mijn slapen, mijn zoon...</p>
+                <button id="heart_in_first_article">&#9825;</button>
+                <h5>07:04</h5><a href="verhaal.html">Lees verder</a> </article>
+            <article> <img src="images/frans.jpg" alt="lange frans">
+                <h4>Lange Frans</h4>
+                <p>Uh, uh, dit is Lange Frans, uh, uh Daar gaan we dan… Drop die beat. (De beat wordt gedropt, Lange Frans gaat fietsen in de...</p>
+                <button id="heart_in_first_article">&#9825;</button>
+                <h5>0:14</h5><a href="verhaal.html">Lees verder</a> </article>
+            <a id="naarboven" href="#"> <img src="images/rocket.svg"></a>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
